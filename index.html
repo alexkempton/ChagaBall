@@ -5,13 +5,16 @@
   <title>ChagaBall</title>
 </head>
 <body>
-  <a href="http://jquery.com/">jQuery</a>
+  <p>ChagaTester</p>
+<div id="highscore"></div></br>
+<div id="ball"></div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
     	
 		$.getJSON("test.json", function(json) {
-		   alert("JSON Data: " + json.highscore);
+			$(#"highscore").html(json.highscore);
+		  
 		 });
 
     });
