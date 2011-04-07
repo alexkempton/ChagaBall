@@ -10,7 +10,9 @@
   <script>
     $(document).ready(function(){
     	
-		alert("hello world");
+		$.getJSON("test.json", function(json) {
+		   alert("JSON Data: " + json.highscore);
+		 });
 
     });
   </script>
