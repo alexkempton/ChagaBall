@@ -36,23 +36,8 @@ Highscore: <div id="highscore"></div> Ball: <div id="ball"></div>
   
   
 
-</head>
-<body>
-  <p>ChagaTester</p>
-Highscore: <div id="highscore"></div></br>
-Ball: <div id="ball"></div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-  <script>
-    $(document).ready(function(){
-    	
-		$.getJSON("test.json", function(json) {
-			$("#highscore").html(json.highscore);
-			$("#ball").html(json.satelitter["ball"]);
-		  
-		 });
 
-    });
-  </script>
+
 
 </body>
 </html>
