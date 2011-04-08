@@ -1,0 +1,9 @@
+{
+    "highscore": "100",
+    "satelitter": {
+        "ball": "off",
+        "knapp": "on",
+		"satelitt3":"off",
+		"satelitt4":"on"
+    }
+}
