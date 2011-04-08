@@ -2,7 +2,8 @@ void setup() {
   size(300, 300);  
   background(255);  
   stroke(255);  
-  
+  	$("#highscore").html("0");
+	$("#ball").html("on");
   window.setInterval(board.update,5000);
   
 }
