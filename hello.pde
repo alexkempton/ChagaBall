@@ -1,15 +1,15 @@
 void setup() {  
   size(200, 200);  
-  background(100);  
+  background(0);  
   stroke(255);  
   
-  window.setInterval(board.update,10000);
+  window.setInterval(board.update,5000);
   
 }
 
 void draw(){
 if($("#ball").text()==="off"){
-fill( 0, 121, 184 );   
+fill( 255, 0, 0 );   
 }
 else {
 fill( 0, 0, 0 );  
