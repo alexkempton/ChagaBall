@@ -1,3 +1,10 @@
 @font-face { font-family: 'Coopman'; src: url('Coopman.ttf'); }
+@font-face { font-family: 'digital-7'; src: url('digital-7.ttf'); }
 
 body { background-color: black;}
+
+#canvasHolder{
+	width:980px;
+	margin:auto;
+
+}
